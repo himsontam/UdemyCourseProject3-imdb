@@ -27,6 +27,7 @@ Link to scrapy: https://www.imdb.com/search/title/?groups=top_250&sort=user_rati
       xmlfeed
 
 - Export Excel Command -----> scrapy crawl best_movies -o movies_dataset.csv
+- Export JSON Command ------> scrapy crawl best_movies -o movies_dataset.json
 
 # Anaconda command:
 - install dependencies ----> conda install -c conda-forge scrapy==1.6 pylint autopep8 -y
